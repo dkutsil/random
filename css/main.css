@@ -1,0 +1,76 @@
+.test{
+    color: blue;
+    width: 700px;
+    /* селектор по индификатору*/
+
+}
+h1 { color: aquamarine;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    list-style-type: circle
+}
+/* селектор потомков */
+nav > ol 
+
+
+nav > ul {
+    /* background-color: aqua; */
+    border-radius: 10px;
+    color: rgb(34, 134, 222);
+    width: 300x;
+}
+li{
+    color: rgb(34, 134, 222);
+}
+
+a:hover{
+    color: blue;
+}
+/* селектор псевдоклассов */
+
+:active{
+    color: chartreuse;
+}
+
+li:first-child {
+    font-weight: bold;
+    color: olive;
+
+}
+
+h2 + p{
+font-weight:bold ;  
+color: rgb(223, 204, 241); 
+}
+
+.kubick{
+    width:100px;
+    height: 100px;
+    background-color: #311a51;
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.corzina{
+    width: 220px;
+    height: 300px;
+    background-color: rgb(249, 184, 255);
+    border-radius: 20px;
+    margin-top: 4%;
+    padding-top: 2%;
+
+}
+.content-container{
+    background-color: beige;
+    border-radius: 2%;
+    padding:10% 1% ;
+    margin-top: 3%;
+}
+section{
+    border: solid 1px #311a51;
+    border-radius: 5px;
+    margin-top: 1%;
+ padding-left:  10%;
+
+}
